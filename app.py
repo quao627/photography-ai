@@ -14,7 +14,7 @@ CORS(app)  # Enable CORS for React frontend
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg'}
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY', "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"))
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 MODEL = "gpt-4-turbo"
 
 def allowed_file(filename):
