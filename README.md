@@ -1,1 +1,1 @@
-# photography-ai
+# photography-coach

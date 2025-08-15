@@ -1,0 +1,9 @@
+.vercel
+photography-app/frontend/node_modules
+static/uploads/
+photography-app/static/uploads/
+uploads/
+.env
+__pycache__/
+*.pyc
+.DS_Store
