@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState(null);
 
   // API URL - use current origin in production, localhost in development
-  const API_URL = process.env.NODE_ENV === 'production' ? process.env.REACT_APP_API_URL : 'http://localhost:5001';
+  const API_URL = "https://155ea738.r26.cpolar.top";
 
   const handleFileSelect = (event) => {
     const file = event.target.files[0];
